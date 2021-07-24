@@ -233,14 +233,14 @@ fig1.suptitle('Webbing Comparison')
 plt.rcParams['axes.axisbelow'] = True
 #The following are constants that can be adjusted
 #to make the margins better
-yAxFontSz = 5 #x tick font size
-lMarg = 0.11 #left margin space
-rMarg = 0.9 #right margin space
-bMarg = 0.2 #bottom margin space
-tMarg = 0.8 #top margin space
-h_Space = 0.22 #space between plots
-w_Space = 0.5 #space between plots
-dotSz = 6
+yAxFontSz = 6.5 #x tick font size
+lMarg = 0.05 #left margin space
+rMarg = 0.97 #right margin space
+bMarg = 0.05 #bottom margin space
+tMarg = 0.915 #top margin space
+h_Space = 0.17 #space between plots
+w_Space = 0.2 #space between plots
+dotSz = 20
 
 sp1 = fig1.add_subplot(2,4,1)
 plt.grid(True)
