@@ -233,13 +233,13 @@ fig1.suptitle('Webbing Comparison')
 plt.rcParams['axes.axisbelow'] = True
 #The following are constants that can be adjusted
 #to make the margins better
-yAxFontSz = 6.5 #x tick font size
+yAxFontSz = 6 #x tick font size
 lMarg = 0.05 #left margin space
 rMarg = 0.97 #right margin space
 bMarg = 0.05 #bottom margin space
 tMarg = 0.915 #top margin space
-h_Space = 0.17 #space between plots
-w_Space = 0.2 #space between plots
+h_Space = 0.1 #space between plots
+w_Space = 0.19 #space between plots
 dotSz = 20
 
 sp1 = fig1.add_subplot(2,4,1)
@@ -272,13 +272,13 @@ plt.scatter(sortedWeight, webbings03, color = colors03, marker='o', s=dotSz)
 plt.xlim(left=0)
 plt.subplots_adjust(left=lMarg, bottom=bMarg, right=rMarg, top=tMarg, hspace=h_Space, wspace=w_Space)
 
-sp4 = fig1.add_subplot(2,4,8)
+sp8 = fig1.add_subplot(2,4,4)
 plt.grid(True)
-yTicks = webbings04
-plt.title('MBS/Wt')
+yTicks = webbings09
+plt.title('Stretch at 10kN (%)')
 plt.yticks(y1, yTicks)
 plt.yticks(range(len(y1)), yTicks, fontsize=yAxFontSz)#, rotation=90)
-plt.scatter(sortedStrIWeight, webbings04, color = colors04, marker='o', s=dotSz)
+plt.scatter(sortedStretch10kN, webbings09, color = colors09, marker='o', s=dotSz)
 plt.xlim(left=0)
 plt.subplots_adjust(left=lMarg, bottom=bMarg, right=rMarg, top=tMarg, hspace=h_Space, wspace=w_Space)
 
@@ -312,15 +312,25 @@ plt.scatter(sortedIWeightICost, webbings07, color = colors07, marker='o', s=dotS
 plt.xlim(left=0)
 plt.subplots_adjust(left=lMarg, bottom=bMarg, right=rMarg, top=tMarg, hspace=h_Space, wspace=w_Space)
 
-sp8 = fig1.add_subplot(2,4,4)
+sp4 = fig1.add_subplot(2,4,8)
 plt.grid(True)
-yTicks = webbings09
-plt.title('Stretch at 10kN (%)')
+yTicks = webbings04
+plt.title('MBS/Wt')
 plt.yticks(y1, yTicks)
 plt.yticks(range(len(y1)), yTicks, fontsize=yAxFontSz)#, rotation=90)
-plt.scatter(sortedStretch10kN, webbings09, color = colors09, marker='o', s=dotSz)
+plt.scatter(sortedStrIWeight, webbings04, color = colors04, marker='o', s=dotSz)
+plt.legend()
 plt.xlim(left=0)
 plt.subplots_adjust(left=lMarg, bottom=bMarg, right=rMarg, top=tMarg, hspace=h_Space, wspace=w_Space)
+
+import matplotlib.patches as mpatches
+classes = ['Nylon', 'Polyester', 'Dyneema','Hybrid']
+class_colours = ['b', 'g', 'r', 'c']
+recs = []
+for i in range(0, len(class_colours)):
+    recs.append(mpatches.Rectangle((0,0),1,1,fc=class_colours[i]))
+plt.legend(recs,classes,loc=4)
+
 
 
 
@@ -335,7 +345,6 @@ plt.subplots_adjust(left=lMarg, bottom=bMarg, right=rMarg, top=tMarg, hspace=h_S
 
 # plt.title(ttl)
 plt.show()
-
 
 
 # plotSpec(webbings01, sortedCost, 'Cost')
