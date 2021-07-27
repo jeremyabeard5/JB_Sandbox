@@ -15,6 +15,7 @@ csvData = list(csvReader)
 #print(csvData)
 
 OG_Manufacturers=[]
+OG_Countries=[]
 OG_Webbings=[]
 OG_Materials=[]
 OG_MBS=[]
@@ -37,7 +38,8 @@ for i in range(len(csvData)):
                 OG_Stretch10kN = OG_Stretch10kN + [csvData[i][6]]
                 OG_Width = OG_Width + [csvData[i][7]]
                 OG_Cost = OG_Cost + [csvData[i][8]]
-                OG_Link = OG_Link + [csvData[i][9]]
+                OG_Countries = OG_Countries + [csvData[i][9]]
+                OG_Link = OG_Link + [csvData[i][10]]
 
 
 
@@ -45,6 +47,7 @@ for i in range(len(csvData)):
 
 
 OG_Manufacturers = OG_Manufacturers[2:]
+OG_Countries = OG_Countries[2:]
 #print(Manufacturers)
 OG_Webbings = OG_Webbings[2:]
 OG_Materials = OG_Materials[2:]
@@ -233,13 +236,13 @@ fig1.suptitle('Webbing Comparison')
 plt.rcParams['axes.axisbelow'] = True
 #The following are constants that can be adjusted
 #to make the margins better
-yAxFontSz = 6 #x tick font size
+yAxFontSz = 5 #x tick font size
 lMarg = 0.05 #left margin space
 rMarg = 0.97 #right margin space
-bMarg = 0.05 #bottom margin space
-tMarg = 0.915 #top margin space
-h_Space = 0.1 #space between plots
-w_Space = 0.19 #space between plots
+bMarg = 0.02 #bottom margin space
+tMarg = 0.965 #top margin space
+h_Space = 0.08 #space between plots top-bottom
+w_Space = 0.16 #space between plots left-right
 dotSz = 20
 
 sp1 = fig1.add_subplot(2,4,1)

@@ -1,57 +1,81 @@
-Manufacturer,Webbing,Material,MBS,Weight,Stretch,Stretch,Width,Cost,Link
-n/a,n/a,n/a,kN,g/m,pct_at_6kN,pct_at_10kN,mm,usd/m,n/a
-BC,Heavy,Nylon,45,100,8.87,13.12,25.4,3.5,https://www.balancecommunity.com/collections/webbing/products/heavy?variant=39354488913978
-BC,Green,Nylon,26,53,8.52,11.72,25.4,2.35,https://www.balancecommunity.com/products/green?variant=29482060087365
-BC,Green_20,Nylon,25,53,8.52,11.72,20,2.45,https://www.balancecommunity.com/products/green-20?variant=39247670542394
-BC,Blue,Polyester,25,55,3.76,7.51,25.4,2,https://www.balancecommunity.com/collections/webbing/products/blue?variant=29482051665989
-BC,Blue_20,Polyester,24,53,3.76,7.51,20,2,https://www.balancecommunity.com/products/blue-20?variant=39247681519674
-BC,Lift_2be,Nylon,21.5,48,12.88,16.9,25.4,2.35,https://www.balancecommunity.com/products/lift-2be?variant=31873650688058
-BC,Type_18_MKII,Nylon,32,62,9.22,13.14,25.4,2.5,https://www.balancecommunity.com/products/type-18-mkii?variant=32251132608570
-BC,Feather_Pro,Polyester,29,51,6.15,10.46,25.4,2.45,https://www.balancecommunity.com/products/feather-pro?variant=29188207706181
-BC,Jybn,Nylon,26,51,12.84,19.6,25.4,1.5,https://www.balancecommunity.com/products/jybn?variant=31343903637562
-BC,Jelly,Polyester,20,45,4.5,7.01,25.4,2,https://www.balancecommunity.com/products/jelly-webbing?variant=32226238660666
-BC,Jasp,Polyester,25,57,5.14,10.47,25.4,1.4,https://www.balancecommunity.com/products/jasp?variant=39354529349690
-Raed,Eclipse,Polyester,16,30,6,10,25.4,0.81,https://raed-slacklines.com/eclipse-lightweight-polyester-webbing
-Raed,Dyneemite,Dyneema,30,22,1,1.5,25.4,3.52,https://raed-slacklines.com/dyneemite-ultralight-highline-project-webbing
-Raed,Aurora,Polyester,31,61,5,8,25.4,2.34,https://raed-slacklines.com/aurora-polyester-highline-webbing
-Raed,Rainbow,Polyester,36,62,2,7,25.4,2.06,https://raed-slacklines.com/rainbow-polyester-highline-webbing
-Raed,MOTM,Nylon,27,56,13,17,25.4,2.11,https://raed-slacklines.com/motm-tubular-nylon-slackline-webbing
-Raed,Parsec,Polyester,36,58,2,4,25.4,1.17,https://raed-slacklines.com/parsec-longline-webbing
-Raed,Helium,Polyester,24,38,2.5,4,25.4,0.81,https://raed-slacklines.com/helium-lightweight-polyester-slackline-webbing
-Slacktivity,2Faces,Polyester,24,55,4.3,7.2,25.4,2.71,https://slacktivity.com/shop/2faces-polyester-slackline/
-Slacktivity,RedTube,Nylon,36,76,13,18.6,25.4,2.83,https://slacktivity.com/shop/redtube-30m-200m/
-Slacktivity,PinkTube,Nylon,25.6,54,17,22.6,25.4,2.12,https://slacktivity.com/shop/pinktube-slackline-tubular-webbing/
-Slacktivity,LSDTube,Nylon,25,49.5,14,18,25.4,3.24,https://slacktivity.com/shop/lsdtube-webbing/
-Slacktivity,halfMarathon,Polyester,28,48.5,2.5,4.5,20,2.12,https://slacktivity.com/shop/halfmarathon-20mm-webbing/
-Slacktivity,Y2K,Dyneema,34,33.1,0.5,1,25.4,5.41,https://slacktivity.com/shop/y2k-1-inch-slackline-webbing/
-Slacktivity,Marathon,Polyester,37,61.5,2.5,4,25.4,2.12,https://slacktivity.com/shop/marathon-webbing/
-Spider,Zao,Polyester,31,65,4,6,25.4,1.77,https://spider-slacklines.com/shop/en/longline-webbings/69-1535-zao-line-9506919000.html#/306-select_model-price_by_meter
-Spider,Jumbo,Polyester,35,83,5,7,25.4,2.24,https://spider-slacklines.com/shop/en/longline-webbings/73-1547-jumbo-longline-9506919000.html#/306-select_model-price_by_meter
-Spider,Edge,Polyester,35,62,2,4,25.4,2.12,https://spider-slacklines.com/shop/en/longline-webbings/74-1544-edge-line-9506919000.html#/306-select_model-price_by_meter
-Spider,Tender,Polyester,23.3,48,5,7,25.4,1.41,https://spider-slacklines.com/shop/en/longline-webbings/76-1526-tender-longline-9506919000.html#/306-select_model-price_by_meter
-Spider,Fly,Polyester,33,58,2,4,25.4,1.65,https://spider-slacklines.com/shop/en/longline-webbings/77-1532-fly-longline-9506919000.html#/306-select_model-price_by_meter
-Spider,Nylove,Nylon,31,62,9,12.5,25.4,2,https://spider-slacklines.com/shop/en/highline-webbing/245-1539-nylove-longline-9506919000.html#/40-choose_the_color-fuchsia/306-select_model-price_by_meter
-Spider,Joker,Hybrid,27,54,5,9,25.4,2.34,https://spider-slacklines.com/shop/en/longline-webbings/338-1380-joker-longline-9506919000.html#/306-select_model-price_by_meter
-Spider,Plasma,Polyester,40,73,4,6.2,25.4,1.29,https://spider-slacklines.com/shop/en/longline-webbings/343-1529-plasma-longline-9506919000.html#/306-select_model-price_by_meter
-Spider,Rodeo,Nylon,27,56,16,23.1,25.4,1.91,https://spider-slacklines.com/shop/en/products/344-3723-rodeo-line-9506919000.html#/306-select_model-price_by_meter
-Spider,Donkey,Nylon,32,66,10,13,25.4,3.41,https://spider-slacklines.com/shop/en/highline-webbing/345-1389-donkey-longline-9506919000.html#/306-select_model-price_by_meter
-Spider,Abyss,Nylon,32,63,11,15.2,25.4,3.06,https://spider-slacklines.com/shop/en/highline-webbing/347-1395-abysses-bounce-longline-9506919000.html#/306-select_model-price_by_meter
-Spider,Cosmic,Polyester,31,50,5.5,6.5,25.4,1.88,https://spider-slacklines.com/shop/en/longline-webbings/359-1525-cosmic-longline-9506919000.html#/306-select_model-price_by_meter
-Spider,Sky Diamond,Dyneema,35,29,1,3,17,5.85,https://spider-slacklines.com/shop/en/highline-webbing/426-2764-sky-diamond-longline-presale-9506919000.html#/306-select_model-price_by_meter
-Slack.fr,Moonwalk,Dyneema,31,34,3,3.4,25.4,3.77,https://laboutique.slack.fr/en/slackline-webbings/41-moonwalk-flat-hybride.html
-Slack.fr,ShaQ,Polyester,28.5,61,3.5,6,25.4,2.34,https://laboutique.slack.fr/en/slackline-webbings/340-shaq-flat-round-edges.html
-Slack.fr,Slodki,Polyester,30,61,3.5,6,25.4,2.34,https://laboutique.slack.fr/en/slackline-webbings/309-slodki-flat-round-edges.html
-Slack.fr,Reggae,Polyester,23.6,48,7,10,25.4,2.12,https://laboutique.slack.fr/en/slackline-webbings/143-reggae-tubular.html
-Slack.fr,RVD,Polyester,23.6,48,7,10,25.4,2.12,https://laboutique.slack.fr/en/slackline-webbings/146-rvd-tubular.html
-Aki,Anima,Hybrid,30,37.5,1,2,20,3.77,https://aki-slacklines.de/en/webbing/hppe/194/aki-anima-webbing?c=6
-Aki,Wave Tube 25,Nylon,21,42,12,17,25.4,2,https://aki-slacklines.de/en/webbing/polyamide/138/aki-wave-tube-25-webbing?c=6
-Aki,Wizard,Polyester,34,55,2,4.2,25.4,2.35,https://aki-slacklines.de/en/webbing/polyester/189/aki-wizard-webbing?c=6
-Aki,Nomad,Polyester,23.5,38,2,4,25.4,1.18,https://aki-slacklines.de/en/webbing/polyester/187/aki-nomad-webbing?c=6
-Aki,Soma,Polyester,32.5,62,6,8.7,25.4,1.65,https://aki-slacklines.de/en/webbing/polyester/186/aki-soma-webbing?c=6
-Aki,Sonic Light,Nylon,27,53,8,13,25.4,2.71,https://aki-slacklines.de/en/webbing/polyamide/176/aki-sonic-light-webbing?c=6
-Aki,Purple Gold,Nylon,30.5,65.5,12,17,25.4,2.71,https://aki-slacklines.de/en/webbing/polyamide/169/aki-purple-gold-webbing?c=6
-Aki,Wave Tube 19,Nylon,16,36,12,18,19,1.65,https://aki-slacklines.de/en/webbing/polyamide/15/aki-wave-tube-19-webbing?c=6
-Aki,Polar,Polyester,27,55,5,8,25.4,2.35,https://aki-slacklines.de/en/webbing/polyester/162/aki-polar-webbing?c=6
-Aki,Sonic 2,Nylon,35,69,10,15,25.4,1.88,https://aki-slacklines.de/en/webbing/polyamide/137/aki-sonic-2-slackline-webbing?c=6
-Aki,White Magic,Polyester,34,61,3,5,25.4,1.59,https://aki-slacklines.de/en/webbing/polyester/4/aki-white-magic-webbing?c=6
-Aki,Wave Tube 32,Nylon,27,55,11,16,32,2.3,https://aki-slacklines.de/en/webbing/polyamide/14/aki-wave-tube-32-webbing?c=6
+Manufacturer,Webbing,Material,MBS,Weight,Stretch,Stretch,Width,Cost,Country,Link
+n/a,n/a,n/a,kN,g/m,pct_at_6kN,pct_at_10kN,mm,usd/m,n/a,n/a
+BC,Heavy,Nylon,45,100,8.87,13.12,25.4,3.5,USA,https://www.balancecommunity.com/collections/webbing/products/heavy?variant=39354488913978
+BC,Green,Nylon,26,53,8.52,11.72,25.4,2.35,USA,https://www.balancecommunity.com/products/green?variant=29482060087365
+BC,Green_20,Nylon,25,53,8.52,11.72,20,2.45,USA,https://www.balancecommunity.com/products/green-20?variant=39247670542394
+BC,Blue,Polyester,25,55,3.76,7.51,25.4,2,USA,https://www.balancecommunity.com/collections/webbing/products/blue?variant=29482051665989
+BC,Blue_20,Polyester,24,53,3.76,7.51,20,2,USA,https://www.balancecommunity.com/products/blue-20?variant=39247681519674
+BC,Lift_2be,Nylon,21.5,48,12.88,16.9,25.4,2.35,USA,https://www.balancecommunity.com/products/lift-2be?variant=31873650688058
+BC,Type_18_MKII,Nylon,32,62,9.22,13.14,25.4,2.5,USA,https://www.balancecommunity.com/products/type-18-mkii?variant=32251132608570
+BC,Feather_Pro,Polyester,29,51,6.15,10.46,25.4,2.45,USA,https://www.balancecommunity.com/products/feather-pro?variant=29188207706181
+BC,Jybn,Nylon,26,51,12.84,19.6,25.4,1.5,USA,https://www.balancecommunity.com/products/jybn?variant=31343903637562
+BC,Jelly,Polyester,20,45,4.5,7.01,25.4,2,USA,https://www.balancecommunity.com/products/jelly-webbing?variant=32226238660666
+BC,Jasp,Polyester,25,57,5.14,10.47,25.4,1.4,USA,https://www.balancecommunity.com/products/jasp?variant=39354529349690
+Raed,Eclipse,Polyester,16,30,6,10,25.4,0.81,Germany,https://raed-slacklines.com/eclipse-lightweight-polyester-webbing
+Raed,Dyneemite,Dyneema,30,22,1,1.5,25.4,3.52,Germany,https://raed-slacklines.com/dyneemite-ultralight-highline-project-webbing
+Raed,Aurora,Polyester,31,61,5,8,25.4,2.34,Germany,https://raed-slacklines.com/aurora-polyester-highline-webbing
+Raed,Rainbow,Polyester,36,62,2,7,25.4,2.06,Germany,https://raed-slacklines.com/rainbow-polyester-highline-webbing
+Raed,MOTM,Nylon,27,56,13,17,25.4,2.11,Germany,https://raed-slacklines.com/motm-tubular-nylon-slackline-webbing
+Raed,Parsec,Polyester,36,58,2,4,25.4,1.17,Germany,https://raed-slacklines.com/parsec-longline-webbing
+Raed,Helium,Polyester,24,38,2.5,4,25.4,0.81,Germany,https://raed-slacklines.com/helium-lightweight-polyester-slackline-webbing
+Slacktivity,2Faces,Polyester,24,55,4.3,7.2,25.4,2.71,Switzerland,https://slacktivity.com/shop/2faces-polyester-slackline/
+Slacktivity,RedTube,Nylon,36,76,13,18.6,25.4,2.83,Switzerland,https://slacktivity.com/shop/redtube-30m-200m/
+Slacktivity,PinkTube,Nylon,25.6,54,17,22.6,25.4,2.12,Switzerland,https://slacktivity.com/shop/pinktube-slackline-tubular-webbing/
+Slacktivity,LSDTube,Nylon,25,49.5,14,18,25.4,3.24,Switzerland,https://slacktivity.com/shop/lsdtube-webbing/
+Slacktivity,halfMarathon,Polyester,28,48.5,2.5,4.5,20,2.12,Switzerland,https://slacktivity.com/shop/halfmarathon-20mm-webbing/
+Slacktivity,Y2K,Dyneema,34,33.1,0.5,1,25.4,5.41,Switzerland,https://slacktivity.com/shop/y2k-1-inch-slackline-webbing/
+Slacktivity,Marathon,Polyester,37,61.5,2.5,4,25.4,2.12,Switzerland,https://slacktivity.com/shop/marathon-webbing/
+Spider,Zao,Polyester,31,65,4,6,25.4,1.77,Italy,https://spider-slacklines.com/shop/en/longline-webbings/69-1535-zao-line-9506919000.html#/306-select_model-price_by_meter
+Spider,Jumbo,Polyester,35,83,5,7,25.4,2.24,Italy,https://spider-slacklines.com/shop/en/longline-webbings/73-1547-jumbo-longline-9506919000.html#/306-select_model-price_by_meter
+Spider,Edge,Polyester,35,62,2,4,25.4,2.12,Italy,https://spider-slacklines.com/shop/en/longline-webbings/74-1544-edge-line-9506919000.html#/306-select_model-price_by_meter
+Spider,Tender,Polyester,23.3,48,5,7,25.4,1.41,Italy,https://spider-slacklines.com/shop/en/longline-webbings/76-1526-tender-longline-9506919000.html#/306-select_model-price_by_meter
+Spider,Fly,Polyester,33,58,2,4,25.4,1.65,Italy,https://spider-slacklines.com/shop/en/longline-webbings/77-1532-fly-longline-9506919000.html#/306-select_model-price_by_meter
+Spider,Nylove,Nylon,31,62,9,12.5,25.4,2,Italy,https://spider-slacklines.com/shop/en/highline-webbing/245-1539-nylove-longline-9506919000.html#/40-choose_the_color-fuchsia/306-select_model-price_by_meter
+Spider,Joker,Hybrid,27,54,5,9,25.4,2.34,Italy,https://spider-slacklines.com/shop/en/longline-webbings/338-1380-joker-longline-9506919000.html#/306-select_model-price_by_meter
+Spider,Plasma,Polyester,40,73,4,6.2,25.4,1.29,Italy,https://spider-slacklines.com/shop/en/longline-webbings/343-1529-plasma-longline-9506919000.html#/306-select_model-price_by_meter
+Spider,Rodeo,Nylon,27,56,16,23.1,25.4,1.91,Italy,https://spider-slacklines.com/shop/en/products/344-3723-rodeo-line-9506919000.html#/306-select_model-price_by_meter
+Spider,Donkey,Nylon,32,66,10,13,25.4,3.41,Italy,https://spider-slacklines.com/shop/en/highline-webbing/345-1389-donkey-longline-9506919000.html#/306-select_model-price_by_meter
+Spider,Abyss,Nylon,32,63,11,15.2,25.4,3.06,Italy,https://spider-slacklines.com/shop/en/highline-webbing/347-1395-abysses-bounce-longline-9506919000.html#/306-select_model-price_by_meter
+Spider,Cosmic,Polyester,31,50,5.5,6.5,25.4,1.88,Italy,https://spider-slacklines.com/shop/en/longline-webbings/359-1525-cosmic-longline-9506919000.html#/306-select_model-price_by_meter
+Spider,Sky Diamond,Dyneema,35,29,1,3,17,5.85,Italy,https://spider-slacklines.com/shop/en/highline-webbing/426-2764-sky-diamond-longline-presale-9506919000.html#/306-select_model-price_by_meter
+Slack.fr,Moonwalk,Dyneema,31,34,3,3.4,25.4,3.77,France,https://laboutique.slack.fr/en/slackline-webbings/41-moonwalk-flat-hybride.html
+Slack.fr,ShaQ,Polyester,28.5,61,3.5,6,25.4,2.34,France,https://laboutique.slack.fr/en/slackline-webbings/340-shaq-flat-round-edges.html
+Slack.fr,Slodki,Polyester,30,61,3.5,6,25.4,2.34,France,https://laboutique.slack.fr/en/slackline-webbings/309-slodki-flat-round-edges.html
+Slack.fr,Reggae,Polyester,23.6,48,7,10,25.4,2.12,France,https://laboutique.slack.fr/en/slackline-webbings/143-reggae-tubular.html
+Slack.fr,RVD,Polyester,23.6,48,7,10,25.4,2.12,France,https://laboutique.slack.fr/en/slackline-webbings/146-rvd-tubular.html
+Aki,Anima,Hybrid,30,37.5,1,2,20,3.77,Germany,https://aki-slacklines.de/en/webbing/hppe/194/aki-anima-webbing?c=6
+Aki,Wave Tube 25,Nylon,21,42,12,17,25.4,2,Germany,https://aki-slacklines.de/en/webbing/polyamide/138/aki-wave-tube-25-webbing?c=6
+Aki,Wizard,Polyester,34,55,2,4.2,25.4,2.35,Germany,https://aki-slacklines.de/en/webbing/polyester/189/aki-wizard-webbing?c=6
+Aki,Nomad,Polyester,23.5,38,2,4,25.4,1.18,Germany,https://aki-slacklines.de/en/webbing/polyester/187/aki-nomad-webbing?c=6
+Aki,Soma,Polyester,32.5,62,6,8.7,25.4,1.65,Germany,https://aki-slacklines.de/en/webbing/polyester/186/aki-soma-webbing?c=6
+Aki,Sonic Light,Nylon,27,53,8,13,25.4,2.71,Germany,https://aki-slacklines.de/en/webbing/polyamide/176/aki-sonic-light-webbing?c=6
+Aki,Purple Gold,Nylon,30.5,65.5,12,17,25.4,2.71,Germany,https://aki-slacklines.de/en/webbing/polyamide/169/aki-purple-gold-webbing?c=6
+Aki,Wave Tube 19,Nylon,16,36,12,18,19,1.65,Germany,https://aki-slacklines.de/en/webbing/polyamide/15/aki-wave-tube-19-webbing?c=6
+Aki,Polar,Polyester,27,55,5,8,25.4,2.35,Germany,https://aki-slacklines.de/en/webbing/polyester/162/aki-polar-webbing?c=6
+Aki,Sonic 2,Nylon,35,69,10,15,25.4,1.88,Germany,https://aki-slacklines.de/en/webbing/polyamide/137/aki-sonic-2-slackline-webbing?c=6
+Aki,White Magic,Polyester,34,61,3,5,25.4,1.59,Germany,https://aki-slacklines.de/en/webbing/polyester/4/aki-white-magic-webbing?c=6
+Aki,Wave Tube 32,Nylon,27,55,11,16,32,2.3,Germany,https://aki-slacklines.de/en/webbing/polyamide/14/aki-wave-tube-32-webbing?c=6
+Equilibrium,Dragon,Polyester,31,64,4,6,25.4,1.32,Czech Republic,https://www.eqb.cz/dragon-en.html
+Equilibrium,Sumo,Polyester,40,82,3,5,25.4,1.84,Czech Republic,https://www.eqb.cz/sumo-en.html
+Equilibrium,Neon,Nylon,20,48,6,10,25.4,1.32,Czech Republic,https://www.eqb.cz/neon-en.html
+Equilibrium,Skye,Polyester,36,62,3,4.5,25.4,2.08,Czech Republic,https://www.eqb.cz/skye-en.html
+Equilibrium,Candy,Polyester,36,61,1.5,3,25.4,2.3,Czech Republic,https://www.slackshop.cz/en/polyester/228-eqb-candy-green.html
+Equilibrium,Ocean,Nylon,27,53,8,12,25.4,2.46,Czech Republic,https://www.slackshop.cz/en/polyamide/176-eqb-ocean.html
+Equilibrium,Bounce,Nylon,16,38,10,17,20,1.23,Czech Republic,https://www.slackshop.cz/en/polyamide/142-eqb-bounce.html
+Equilibrium,Element,Nylon,20,42,10,16,25.4,1.42,Czech Republic,https://www.slackshop.cz/en/polyamide/98-eqb-element.html
+SlackMountain,Firefox,Nylon,26,52,10,17,25.4,1.95,France,https://slack-mountain.com/en/webbing-slackline/214-firefox.html
+SlackMountain,Goku 2,Dyneema,40,41,2,3.8,25.4,3.78,France,https://slack-mountain.com/en/webbing-slackline/136-goku2.html
+SlackMountain,Spectre,Nylon,30,69,9,13.5,25.4,2.06,France,https://slack-mountain.com/en/webbing-slackline/168-spectre.html
+SlackMountain,Skyway,Polyester,27,56.2,8,11,25.4,1.95,France,https://slack-mountain.com/en/webbing-slackline/213-skyway.html
+SlackMountain,Project 44,Polyester,25,54,6,9.2,25.4,1.95,France,https://slack-mountain.com/en/webbing-slackline/194-project-44.html
+SlackMountain,Firefly,Polyester,30,56,5,7.8,25.4,2.24,France,https://slack-mountain.com/en/hybrid-webbing/185-firefly.html
+SlackMountain,SOS,Dyneema,32,33.65,2,3.4,22,3.78,France,https://slack-mountain.com/en/hybrid-webbing/221-cloud.html
+SlackMountain,Waza,Nylon,23,51.5,10,17.5,25.4,2.12,France,https://slack-mountain.com/en/webbing-slackline/245-waza.html
+SlackMountain,Cobalt,Polyester,29,53,1.5,3.9,25.4,1.42,France,https://slack-mountain.com/en/webbing-slackline/1-cobalt.html
+SlackMountain,Snake Tub,Polyester,21,52,6,10,25.4,1.77,France,https://slack-mountain.com/en/webbing-slackline/5-snake-tub.html
+Slackhouse,Octopussy,Polyester,30,59,5,8,25.4,1.3,Poland,https://slackhouseshop.pl/en/produkt/octopussy/
+Slackhouse,Rubberband Sol,Nylon,28,60,13,19.7,25.4,1.49,Poland,https://slackhouseshop.pl/en/produkt/rubber-band-sol/
+Slackhouse,Rubberband Blu,Nylon,28,60,13,19.7,25.4,1.49,Poland,https://slackhouseshop.pl/en/produkt/rubber-band-blu/
+Slackhouse,Rubbit,Nylon,24,61.1,12.5,17.7,25.4,2.7,Poland,https://slackhouseshop.pl/en/produkt/rubbit-webbing/
+Slackhouse,Levitation,Polyester,22,48,4,7,25.4,0.97,Poland,https://slackhouseshop.pl/en/produkt/levitation/
+Slackhouse,Blue Mile,Polyester,32,59.5,2.5,4.2,25.4,1.35,Poland,https://slackhouseshop.pl/en/produkt/blue-mile-25mm/

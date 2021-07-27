@@ -19,9 +19,11 @@ while userConfirmName == False:
     else:
         print('You suck at responding correctly. Try again. Quitting...') #need to figure out how to quit completely
         
-        
+import datetime
 def submitTodaysMood():
     print('Today\'s Mood')
+    Current_Date = str(datetime.datetime.today().strftime('%Y%m%d'))
+    print('Current Date: ' + Current_Date)
     
 def submitDayMood():
     print('Other Day Mood')
@@ -41,13 +43,13 @@ if userConfirmName == True:
         csvReader = csv.reader(csvFile)
         csvData = list(csvReader)
         print(csvData)
-    with open(file_path, "a+") as f: #regardless, write this stuff
-        data = f.read()
-        print(data)
-        #f.seek(0)
-        newRow = '\nIt worked!, yay!, goteam!, woop woop, Good job.'
-        print(newRow)
-        f.write(newRow)
+#     with open(file_path, "a+") as f: #regardless, write this stuff
+#         data = f.read()
+#         print(data)
+#         #f.seek(0)
+#         newRow = '\nIt worked!, yay!, goteam!, woop woop, Good job.'
+#         print(newRow)
+#         f.write(newRow)
     
     #confirm user selection
     validUserChoice = False
