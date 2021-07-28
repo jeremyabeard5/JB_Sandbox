@@ -20,10 +20,23 @@ while userConfirmName == False:
         print('You suck at responding correctly. Try again. Quitting...') #need to figure out how to quit completely
         
 import datetime
+dowStrs = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+monStrs = ['January','February','March','April','May','June','July','August','September','October','November','December']
+
 def submitTodaysMood():
-    print('Today\'s Mood')
+    print('\nToday\'s Mood')
     Current_Date = str(datetime.datetime.today().strftime('%Y%m%d'))
-    print('Current Date: ' + Current_Date)
+    today_year = int(Current_Date[0:4])
+    today_mon = int(Current_Date[4:6])
+    today_monStr = monStrs[today_mon-1]
+    today_day = int(Current_Date[6:8])
+    today_dow = dowStrs[datetime.datetime.today().weekday()]
+    print('Today is', today_dow, today_monStr, today_day, today_year)
+    print('How was the day? (awful 1-10 amazing) : ', end='')
+    todaySumm = input()
+    
+    
+    
     
 def submitDayMood():
     print('Other Day Mood')

@@ -43,9 +43,6 @@ for i in range(len(csvData)):
 
 
 
-
-
-
 OG_Manufacturers = OG_Manufacturers[2:]
 OG_Countries = OG_Countries[2:]
 #print(Manufacturers)
@@ -86,11 +83,7 @@ spacedOGWebbings = []
 for i in range(len(OG_Webbings)):
     addThisManySpaces = maxWebChars - len(OG_Webbings[i])
     spacedOGWebbings = spacedOGWebbings + [OG_Webbings[i] + addThisManySpaces*' ' + '  ']
-#for i in range(len(spacedOGWebbings)):
-#    print(spacedOGWebbings[i])
-# Strength/Weight
-# Strength/Weight/Cost
-# Strength/Cost
+
 
 OG_StrIWeight = []
 OG_StrIWeightICost = []
@@ -115,10 +108,6 @@ for i in range(numRows):
         OG_Colors = OG_Colors + ['r']
     else:
         OG_Colors = OG_Colors + ['c']
-
-#print(Webbings, StrIWeight)
-#print(StrIWeightICost)
-#print(StrICost)
 
 
 # sortSpec sorts a given list and 2 other lists along with it
@@ -147,28 +136,8 @@ def sortSpec(globSpec, globWebs, globCols):
     while i < len(webs):
         print('{} {:.3f}'.format(webs[i], spec[i]))
         i+=1
-    #print(webs)
-    
-# import pylab as pl
-import matplotlib.pyplot as plt
-def plotSpec(x,y,ttl):
-     x1 = []
-     for i in range(len(x)):
-         x1 = x1 + [i]
-     xTicks = x
-     plt.figure()
-     plt.xticks(x1, xTicks)
-     plt.xticks(range(len(x1)), xTicks, rotation=90)
-     plt.plot(x,y,'*')
-     plt.subplots_adjust(left=0.11, bottom=0.27, right=0.9, top=0.88, hspace=0.2, wspace=0.2)
-     plt.title(ttl)
-#     plt.ion()
-#     pl.pause(0.001)
-     plt.show()
-     
-#     plt.ioff()
-#     plt.show()
-#import matplotlib.pyplot as plt    
+
+import matplotlib.pyplot as plt 
     
     
 import copy
@@ -229,7 +198,6 @@ sortSpec(sortedStretch10kN, webbings09, colors09)
 y1 = []
 for i in range(len(OG_Webbings)):
     y1 = y1 + [i]
-#xTicks = x
     
 fig1 = plt.figure()
 fig1.suptitle('Webbing Comparison')
@@ -335,25 +303,5 @@ for i in range(0, len(class_colours)):
 plt.legend(recs,classes,loc=4)
 
 
-
-
-#sp1.xticks(x1, xTicks1)
-#sp1.xticks(range(len(x1)), xTicks1, rotation=90)
-#sp1.plot(webbings01, sortedCost, '*')
-#sp1.title('Cost')
-#sp1.xticks(x1, webbings02)
-#sp2.plot(webbings02, sortedMBS, '*')
-
-# plt.plot(x,y,'*')
-
-# plt.title(ttl)
 plt.show()
 
-
-# plotSpec(webbings01, sortedCost, 'Cost')
-# plotSpec(webbings02, sortedMBS, 'MBS (kN)')
-# plotSpec(webbings03, sortedWeight, 'g/m')
-# plotSpec(webbings04, sortedStrIWeight, 'MBS/Wt')
-# plotSpec(webbings05, sortedStrIWeightICost, 'MBS/Wt/$')
-# plotSpec(webbings06, sortedStrICost, 'MBS/$')
-# plotSpec(webbings06, sortedIWeightICost, '1/Wt/$')
