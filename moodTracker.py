@@ -6,7 +6,6 @@ userConfirmName = False
 while userConfirmName == False:
     print('Enter your first name : ', end='')
     firstName = input()
-
     print('Enter your last name : ', end='')
     lastName = input()
     
