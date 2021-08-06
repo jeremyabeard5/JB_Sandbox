@@ -71,7 +71,6 @@ def submitTodaysMood():
     
     
 def submitDayMood():
-    
     print('\nOther Day\'s Mood')
     print('Enter year (####) : ', end='')
     day_yearInput = input()
@@ -133,7 +132,7 @@ if userConfirmName == True:
     
     import csv
     import os.path
-    file_path = '/home/jeremy/Documents/GitStuff/JB_Sandbox/' + 'moods_' name + '.csv'
+    file_path = '/home/jeremy/Documents/GitStuff/JB_Sandbox/' + 'moods_' + name + '.csv'
     print('File Exists = ' + str(os.path.exists(file_path)))
     if os.path.exists(file_path): #if file exists, read in the data
         csvFile = open(file_path)

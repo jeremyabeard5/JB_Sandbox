@@ -1,0 +1,9 @@
+Reddit 
+Client ID
+Client Secret
+
+Client ID: 
+AkF_xSl2q2ddUTFd67qN1w
+
+Client Secret
+-P5crX66g3bozua2N-JbMQ4mX5xBRQ
