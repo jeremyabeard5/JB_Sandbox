@@ -13,3 +13,9 @@ c = timeit.timeit("-".join(map(str, range(100))), number=10000)
 print(a)
 print(b)
 print(c)
+
+
+import time
+print(time.perf_counter())
+print('Some code.')
+print(time.perf_counter())
