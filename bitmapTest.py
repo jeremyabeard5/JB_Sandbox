@@ -34,7 +34,7 @@ bitmap = """
 ...................................................................."""
 
 print('Bitmap Message, by Al Swigart al@inventwithpython.com')
-print('Enter the message to displaly with the bitmap.')
+print('Enter the message to display with the bitmap.')
 message = input ('> ')
 if message == '':
     sys.exit()
